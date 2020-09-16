@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     @include('backend.layouts.partials.style')
+    @yield('styles')
 
 </head>
 
@@ -47,6 +48,7 @@
         @include('backend.layouts.partials.offset')
     <!-- offset area end -->
         @include('backend.layouts.partials.script')
+        @yield('scripts')
 
 </body>
 </html>
